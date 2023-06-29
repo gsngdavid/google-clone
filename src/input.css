@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rounded-search {
+    border-radius: 3rem;
+}
+
+@layer components {
+    .footer-link {
+        @apply text-gray-400 text-sm mx-1.5 sm:mx-3 hover:text-gray-200
+    }
+}
